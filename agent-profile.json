@@ -1,0 +1,21 @@
+{
+  "ucp": {
+    "version": "2026-08-25",
+    "services": {
+      "dev.ucp.shopping": [
+        {
+          "version": "2026-08-25",
+          "spec": "https://ucp.dev/2026-08-25/specification/overview/",
+          "capabilities": [
+            { "name": "dev.ucp.shopping.catalog.search", "version": "2026-08-25" },
+            { "name": "dev.ucp.shopping.catalog.lookup", "version": "2026-08-25" },
+            { "name": "dev.ucp.shopping.cart", "version": "2026-08-25" },
+            { "name": "dev.ucp.common.ask", "version": "2026-08-25" }
+          ]
+        }
+      ]
+    }
+  },
+  "name": "Jarvis",
+  "description": "Personal shopping assistant"
+}
